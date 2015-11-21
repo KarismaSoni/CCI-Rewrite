@@ -1,0 +1,8 @@
+.cci-center-block { 
+	float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .cci-mission { margin: 50px auto; }
