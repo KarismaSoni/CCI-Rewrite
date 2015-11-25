@@ -20,6 +20,36 @@
   top: 10px;
   right: 20px;
 }
-.cci-lists {
-	margin-top: 0;
+.cci-lists li a {
+	padding-top: 0;
+}
+.cci-lists li a:hover{
+	background: none;
+	color: lightblue;
+}
+.cci-link p a{
+	font-weight: bold;
+	font-size: 22px;
+}
+.cci-link p a:hover {
+	color: green;
+}
+
+.fa.fa-facebook ,.fa.fa-twitter ,.fa.fa-linkedin ,.fa.fa-google-plus ,.fa.fa-pinteres ,.fa.fa-pinterest ,.fa.fa-youtube ,.fa.fa-envelope {
+  width: 100%;
+  font-size:19px;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #585858;
+  
+}
+.cci-brand-icons ul li { 
+	display: inline-block; 
+}
+
+.cci-brand-icons a:hover{ 
+	background: black;
 }
