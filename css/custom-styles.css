@@ -46,10 +46,14 @@
   background: #585858;
   
 }
-.cci-brand-icons ul li { 
-	display: inline-block; 
+.cci-brand-icons ul li {  display: inline-block; }
+.cci-brand-icons a:hover{  background: black; }
+
+header.carousel { height: 60%; }
+.carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: 0; right: 75%; bottom: auto; height: auto; text-align: left; top: 70%; padding: 10px 15px; font-size: 12px; }
+
+/*=====  Media Queries  ======*/
+@media screen and ( max-width: 768px ) { 
+  .carousel-caption { right: 0; }
 }
 
-.cci-brand-icons a:hover{ 
-	background: black;
-}
