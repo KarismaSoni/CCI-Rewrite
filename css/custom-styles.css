@@ -37,18 +37,20 @@
 
 .fa.fa-facebook ,.fa.fa-twitter ,.fa.fa-linkedin ,.fa.fa-google-plus ,.fa.fa-pinteres ,.fa.fa-pinterest ,.fa.fa-youtube ,.fa.fa-envelope {
   width: 100%;
-  font-size:19px;
+  font-size: 20px;
   color: white;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
+  border-radius: 20%;
   background: #585858;
   
 }
 .cci-brand-icons ul li {  display: inline-block; }
-.cci-brand-icons a:hover{  background: black; }
-
+.cci-brand-icons a.fa-twitter:hover{  background: #58ADEA; }
+.cci-brand-icons a.fa-facebook:hover{  background: #3A5795; }
+.cci-brand-icons a.fa-linkedin:hover{  background: #00669B; }
+.cci-brand-icons a.fa-google-plus:hover{  background:#DC4A3D;}
+.cci-brand-icons a.fa-pinterest:hover{  background:#BC2025;}
+.cci-brand-icons a.fa-youtube:hover{  background:#E62117;} 
+.cci-brand-icons a.fa-envelope:hover{  background: #0071C5;} 
 header.carousel { height: 60%; }
 .carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: 0; right: 75%; bottom: auto; height: auto; text-align: left; top: 70%; padding: 10px 15px; font-size: 12px; }
 
