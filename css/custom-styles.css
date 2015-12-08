@@ -152,6 +152,15 @@ header.carousel { height: 60%; }
 	text-decoration: none;
 }
 
+/*About*/
+
+.cci-colorhistory {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+
+
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
 	.cci-footer-list {
