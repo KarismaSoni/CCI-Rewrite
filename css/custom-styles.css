@@ -152,6 +152,26 @@ header.carousel { height: 60%; }
 	text-decoration: none;
 }
 
+
+/*==== CCI Differnce =====*/
+.cci-color h2 {
+	 font-weight: bold; 
+	 font-size: 45px;
+}
+
+.cci-color p { 
+	font-size: 18px;
+	padding-bottom: 10px; 
+	text-align: justify; 
+}
+
+.cci-color .text {
+	color: rgb(59, 106, 194); 
+	font-weight: bold; 
+}
+
+
+
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
 	.cci-footer-list {
