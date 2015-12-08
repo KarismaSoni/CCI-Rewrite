@@ -178,7 +178,12 @@ header.carousel { height: 60%; }
 >>>>>>> origin/master
 }
 
-
+.cci-block1 {
+	text-align: justify;
+	font-size: 17px; 
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
