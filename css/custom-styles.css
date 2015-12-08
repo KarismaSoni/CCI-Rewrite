@@ -168,6 +168,7 @@ header.carousel { height: 60%; }
 	border: 1px solid black;
 }
 
+<<<<<<< HEAD
 
 .carousel-map-img {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -180,6 +181,13 @@ header.carousel { height: 60%; }
     top: 78%;
     padding: 15px 66px;
     font-size: 15px;
+=======
+.cci-block1 {
+	text-align: justify;
+	font-size: 17px; 
+	margin-left: 20px;
+	margin-bottom: 10px;
+>>>>>>> origin/master
 }
 
 /*=====  Media Queries  ======*/
