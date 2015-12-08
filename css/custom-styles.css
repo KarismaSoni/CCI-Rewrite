@@ -152,33 +152,35 @@ header.carousel { height: 60%; }
 	text-decoration: none;
 }
 
-<<<<<<< HEAD
+
 /*About*/
 
 .cci-colorhistory {
 	margin-top: 0;
 	margin-bottom: 20px;
-=======
-
-/*==== CCI Differnce =====*/
-.cci-color h2 {
-	 font-weight: bold; 
-	 font-size: 45px;
-}
-
-.cci-color p { 
-	font-size: 18px;
-	padding-bottom: 10px; 
-	text-align: justify; 
-}
-
-.cci-color .text {
-	color: rgb(59, 106, 194); 
-	font-weight: bold; 
->>>>>>> origin/master
 }
 
 
+/*Global Experts*/
+
+.mapimg {
+	width: 80%;
+	border: 1px solid black;
+}
+
+
+.carousel-map-img {
+	background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    left: 16%;
+    bottom: auto;
+    height: auto;
+    text-align: left;
+    top: 78%;
+    padding: 15px 66px;
+    font-size: 15px;
+}
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
