@@ -81,7 +81,8 @@
 header.carousel { height: 60%; }
 .carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: 0; right: 75%; bottom: auto; height: auto; text-align: left; top: 70%; padding: 10px 15px; font-size: 12px; }
 
-/* dropdown hover based menu*/
+/*===== dropdown hover based menu =====*/
+
 .dropdown li a:hover {
 	color: red;
 }
@@ -137,7 +138,8 @@ header.carousel { height: 60%; }
 	top: 0;
 	left: -139%;
 }
-/*back-to-top arrow effect*/
+
+/*====back-to-top arrow effect====*/
 
 .back-to-top {
     position: fixed;
@@ -153,7 +155,7 @@ header.carousel { height: 60%; }
 }
 
 
-/*About*/
+/*====About=====*/
 
 .cci-colorhistory {
 	margin-top: 0;
@@ -161,14 +163,13 @@ header.carousel { height: 60%; }
 }
 
 
-/*Global Experts*/
+/*====Global Experts====*/
 
 .mapimg {
 	width: 80%;
 	border: 1px solid black;
+	
 }
-
-<<<<<<< HEAD
 
 .carousel-map-img {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -181,13 +182,6 @@ header.carousel { height: 60%; }
     top: 78%;
     padding: 15px 66px;
     font-size: 15px;
-=======
-.cci-block1 {
-	text-align: justify;
-	font-size: 17px; 
-	margin-left: 20px;
-	margin-bottom: 10px;
->>>>>>> origin/master
 }
 
 /*=====  Media Queries  ======*/
