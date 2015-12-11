@@ -1,3 +1,4 @@
+.cci-m-top { margin-top: 10px; }
 .cci-center-block {
 	float: none;
     display: block;
@@ -162,27 +163,37 @@ header.carousel { height: 60%; }
 	margin-bottom: 20px;
 }
 
+/*=====The CCI Difference====*/
 
+.text-color {
+	color:#3B81D3;
+}
 /*====Global Experts====*/
 
 .mapimg {
-	width: 80%;
+	width: 90%;
 	border: 1px solid black;
-	
+
 }
 
 .carousel-map-img {
 	background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     position: absolute;
-    left: 16%;
-    bottom: auto;
+    bottom: 0;
     height: auto;
-    text-align: left;
-    top: 78%;
-    padding: 15px 66px;
+    text-align: center;
+    padding: 15px 10px;
     font-size: 15px;
+    width: 83%;
 }
+
+.cci-page-title {
+	background: #000;
+	color: #fff;
+}
+
+
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
