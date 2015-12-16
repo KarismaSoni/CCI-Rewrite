@@ -193,7 +193,11 @@ header.carousel { height: 60%; }
 	color: #fff;
 }
 
+/*====sustainibility====*/
 
+.cci-img {
+	margin:0 auto;
+}
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
