@@ -199,6 +199,12 @@ header.carousel { height: 60%; }
 	margin:0 auto;
 }
 
+
+.cci-image-size {
+	width: 282px;
+	height: 211px;
+
+}
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
 	.cci-footer-list {
