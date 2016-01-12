@@ -24,3 +24,9 @@
         })
     });
 
+
+
+var vid = document.getElementById("embed-responsive-item");
+vid.onloadstart = function() {
+    alert("Starting to load video");
+};
