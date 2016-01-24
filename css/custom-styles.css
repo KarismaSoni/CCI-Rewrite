@@ -235,27 +235,27 @@ footer .cci-footer {
 
 
 /* automotive carosuel */
-/*.carousel-indicators li {
+.carousel-indicators li {
     height: 70px;
     width: 157px;
 }
 
 .carousel-indicators data-slide-to[0] {
-   backgruond: url('image/fksdjlfds.png');
+   background:url('images/AutomotiveColor/AutomotiveColorToolsandMatches .jpg');
 }
 .carousel-indicators data-slide-to[1] {
-   backgruond: url('image/fksdjlfds.png')
+   background: url('images/AutomotiveColor/LuxuryAutomotiveColor.jpg');
 }.carousel-indicators data-slide-to[0] {
-   backgruond: url('image/fksdjlfds.png')
+   background: url('image/fksdjlfds.png');
 }.carousel-indicators data-slide-to[0] {
-   backgruond: url('image/fksdjlfds.png')
+   background: url('image/fksdjlfds.png');
 }.carousel-indicators data-slide-to[0] {
-   backgruond: url('image/fksdjlfds.png')
+   background: url('image/fksdjlfds.png');
 }.carousel-indicators data-slide-to[0] {
-   backgruond: url('image/fksdjlfds.png')
+   background: url('image/fksdjlfds.png');
 }.carousel-indicators data-slide-to[0] {
-   backgruond: url('image/fksdjlfds.png')
-}*/
+   background: url('image/fksdjlfds.png');
+}
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
