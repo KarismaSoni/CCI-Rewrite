@@ -32,12 +32,12 @@
 	right: 20px;
 }
 .cci-lists {
-	margin-bottom: 20px;
+	margin: 10px 0;
 }
 
 .cci-lists li a {
 	padding-top: 0;
-	}
+}
 
 .cci-lists li a:hover {
 	background: none;
@@ -235,7 +235,7 @@ footer .cci-footer {
 
 
 /* automotive carosuel */
-.carousel-indicators li {
+/*.carousel-indicators li {
     height: 70px;
     width: 157px;
 }
@@ -245,17 +245,27 @@ footer .cci-footer {
 }
 .carousel-indicators data-slide-to[1] {
    background: url('images/AutomotiveColor/LuxuryAutomotiveColor.jpg');
-}.carousel-indicators data-slide-to[0] {
+}.carousel-indicators data-slide-to[2] {
    background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[0] {
+}.carousel-indicators data-slide-to[3] {
    background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[0] {
+}.carousel-indicators data-slide-to[4] {
    background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[0] {
+}.carousel-indicators data-slide-to[5] {
    background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[0] {
+}.carousel-indicators data-slide-to[6] {
    background: url('image/fksdjlfds.png');
+}*/
+
+
+/*Form Input*/
+
+input,textarea {
+	display: inline-block;
+	margin: 10px 0;
 }
+
+
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
