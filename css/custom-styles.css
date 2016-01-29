@@ -22,10 +22,6 @@
 	position: relative;
 }
 
-.col-md-6  input {
-	text-indent: 30px;
-}
-
 .col-md-6  .fa-search {
 	position: absolute;
 	top: 10px;
@@ -233,6 +229,23 @@ footer .cci-footer {
   border-bottom: 1px solid #AAAAAA;
 }
 
+/*=====  specialized-services  ======*/
+.specialized-services form input, .specialized-services form textarea {
+  margin: 0;  
+}
+
+.specialized-services .contact-form {
+  margin-top: 20px;
+}
+
+.specialized-services .contact-form .form-group {
+  width: 48%;
+  float: left;
+}
+
+.specialized-services .contact-form .form-group:last-child {
+  margin-left: 20px;
+}
 
 /* automotive carosuel */
 /*.carousel-indicators li {
