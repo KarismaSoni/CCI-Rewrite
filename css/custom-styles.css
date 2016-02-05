@@ -73,6 +73,10 @@
 header.carousel { height: 60%; }
 .carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: 0; right: 75%; bottom: auto; height: auto; text-align: left; top: 70%; padding: 10px 15px; font-size: 12px; }
 
+
+
+
+
 /*===== dropdown hover based menu =====*/
 
 .dropdown li a:hover {
@@ -248,6 +252,10 @@ footer .cci-footer {
 }
 
 
+.cci-warehousing {
+	position: relative;
+	left: 300px;
+}
 
 /* automotive carosuel */
 /*.carousel-indicators li {
@@ -271,6 +279,7 @@ footer .cci-footer {
 }.carousel-indicators data-slide-to[6] {
    background: url('image/fksdjlfds.png');
 }*/
+
 
 
 
