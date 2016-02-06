@@ -25,28 +25,3 @@
     });
 
 
-
-var vid = document.getElementById("embed-responsive-item");
-vid.onloadstart = function() {
-    alert("Starting to load video");
-};
-
-/*/image zoom*/
-
-
-/*map*/
-
-var myCenter=new google.maps.LatLng(45.434046,12.340284);
-
-function initialize()
-{
-var mapProp = {
-  center:myCenter,
-  zoom:18,
-  mapTypeId:google.maps.MapTypeId.HYBRID
-  };
-
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
