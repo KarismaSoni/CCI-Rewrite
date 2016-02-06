@@ -1,6 +1,15 @@
-.cci-m-top { 
-  margin-top: 10px; 
-}
+/*=====================================
+=            Global Styles            =
+=====================================*/
+a:link,
+a:active,
+a:visited { color: #2559c9; }
+a:hover { color: #76cae9; text-decoration: none; }
+
+hr { border-color: #aaa; }
+
+.cci-m-top { margin-top: 10px; }
+/*=====  End of Global Styles  ======*/
 
 .cci-center-block {
 	float: none;
@@ -12,11 +21,6 @@
  .cci-mission {
  	margin: 50px auto;
  }
-
-.cci-link a {
-	text-decoration: none;
-}
-
 
 .col-md-6 {
 	position: relative;
@@ -33,11 +37,6 @@
 
 .cci-lists li a {
 	padding-top: 0;
-}
-
-.cci-lists li a:hover {
-	background: none;
-	color: lightblue;
 }
 
 .cci-link p a {
@@ -58,7 +57,7 @@
 	width: 100%;
 	font-size: 20px;
 	color: white;
-	border-radius: 20%;
+	border-radius: 10%;
 	background: #585858;
 }
 
@@ -78,13 +77,15 @@ header.carousel { height: 60%; }
 
 
 /*===== dropdown hover based menu =====*/
-
+.dropdown-menu {
+    border-radius: 0;
+}
 .dropdown li a:hover {
-	color: red;
+    color: #FF9900;
 }
 
 .dropdown li:hover .dropdown-menu {
-	visibility: visible;
+    visibility: visible;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -127,7 +128,7 @@ header.carousel { height: 60%; }
 }
 
 .dropdown-submenu:hover>a:after {
-    border-left-color: #fff;
+    border-left-color: #FF9900;
 }
 
 .dropdown-submenu.CCI-dropdownleft:last-child>.dropdown-menu {
@@ -151,9 +152,22 @@ header.carousel { height: 60%; }
 }
 
 /*===== Home ======*/
+.cci-home-color-sell {
+    margin-top: 60px;
+}
+
 .cci-accuracy-expertise img { 
   height: 180px; 
   width: 300px; 
+}
+
+.learn-more-btn {
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #000 !important;
+    font-weight: bold;
+    border-color: #000;
+    margin-top: 10px;
 }
 
 .cci-innovation-text {
