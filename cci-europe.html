@@ -462,11 +462,15 @@
       function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
-            center: new google.maps.LatLng(41.887755299999995, -87.7963202),
-            zoom: 8,
+            center: new google.maps.LatLng(53.76135, -8.484174),
+            zoom: 15,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
+        var marker = new google.maps.Marker({  
+            position: mapOptions.center,
+            map: map  
+        });
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
