@@ -436,22 +436,23 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    ...
     <!--Custom Javascript-->
-     
-    <script src="js/custom.js"></script>
-
-  
+    <script src="js/custom.js"></script>  
     <script src="https://maps.googleapis.com/maps/api/js"></script>
+
     <script>
       function initialize() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
-            center: new google.maps.LatLng(41.868243, -87.726493),
-            zoom: 8,
+            center: new google.maps.LatLng(41.868261, -87.7286806),
+            zoom: 15,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
+        var marker = new google.maps.Marker({  
+            position: mapOptions.center,
+            map: map  
+        });
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
