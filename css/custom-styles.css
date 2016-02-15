@@ -235,6 +235,52 @@ header.carousel { height: 60%; }
 
 }
 
+/*=====  Color Solutions  ======*/
+.cci-browse-by-industry h4 {
+    text-align: center;
+}
+.cci-browse-by-industry div { 
+    position: relative; 
+    display: inline-block; 
+    width: 48%; 
+    height: 50%; 
+    height: 100px; 
+    margin-bottom: 5px;
+}
+.cci-browse-by-industry div img { 
+    width: 100%; 
+    height: 100%; 
+}
+.cci-browse-by-industry div span { 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    right: 0;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.pgwSlideshow ul {
+    padding: 0;
+}
+
+.pgwSlideshow img {
+    width: 100%;
+    height: 460px;
+}
+.pgwSlideshow .ps-caption {
+    top: 0;
+    bottom: auto;
+}
+.pgwSlideshow .ps-caption a {
+    color: #fff;
+    font-size: 14px;
+}
+
+
 /*=====  Footer  ======*/
 footer { 
   padding: 50px 0 20px 0;
