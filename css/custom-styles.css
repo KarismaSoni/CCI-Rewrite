@@ -280,7 +280,20 @@ header.carousel { height: 60%; }
     font-size: 14px;
 }
 
+/*===Sitemap====*/
 
+.cci-bullets {
+  list-style-type:circle;
+}
+
+.cci-sitemap {
+  margin-left:20px;
+  list-style-type:square;
+}
+.cci-dropdownlists {
+  margin-left:40px;
+  list-style-type:square;
+}
 /*=====  Footer  ======*/
 footer { 
   padding: 50px 0 20px 0;
@@ -363,4 +376,5 @@ footer .cci-footer {
 @media screen and ( max-width: 768px ) {
 	.carousel-caption { right: 0; }
 	.cci-brand-icons.pull-right { float: none !important; }
+   
 }
