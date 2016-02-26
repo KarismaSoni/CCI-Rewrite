@@ -216,6 +216,19 @@ header.carousel { height: 60%; }
     font-size: 15px;
     width: 83%;
 }
+.cci-lightcolor {
+  background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 41px;
+    left: 182px;
+    height: auto;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 12px;
+    width: 36%;
+
+}
 
 .cci-page-title {
 	background: #000;
@@ -232,7 +245,8 @@ header.carousel { height: 60%; }
 .cci-image-size {
 	width: 282px;
 	height: 211px;
-  margin:0 auto;
+  border:2px solid grey;
+  padding:3px;
 }
 .cci-specialtycolor-image:hover{
     background-color: rgba(0, 0, 0, 0.5);
@@ -246,9 +260,16 @@ header.carousel { height: 60%; }
     width: 72%;
   -webkit-transition:all 2s ease-in-out; 
     transition:all 2s ease; 
+
 }
-.cci-specialtycolor-image:hover {
-  
+
+.cci-lightcolor-image {
+  width:207px;
+
+}
+.cci-colorcards-image {
+  width:30px;
+  height:30px;
 }
 /*=====  Color Solutions  ======*/
 .cci-browse-by-industry h4 {
