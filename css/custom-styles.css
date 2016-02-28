@@ -241,7 +241,6 @@ header.carousel { height: 60%; }
 	margin:0 auto;
 }
 
-
 .cci-image-size {
 	width: 282px;
 	height: 211px;
@@ -262,15 +261,33 @@ header.carousel { height: 60%; }
     transition:all 2s ease; 
 
 }
-
 .cci-lightcolor-image {
   width:207px;
 
 }
-.cci-colorcards-image {
-  width:30px;
-  height:30px;
+.cci-fundamentalcolor-image {
+ background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    height: auto;
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 15px;
+    width: 70%;
 }
+.cci-fundamentalcolor-border{
+  border-bottom:2px solid black;
+  width: 34%;
+  margin-top: -5px;
+}
+.cci-fundamentalcolor {
+  color:grey;
+  font-size:15px;
+
+} 
+
 /*=====  Color Solutions  ======*/
 .cci-browse-by-industry h4 {
     text-align: center;
