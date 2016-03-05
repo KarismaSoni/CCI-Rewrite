@@ -12,6 +12,8 @@ hr { border-color: #aaa; }
 
 .cci-font-color-orange { color: #da8044; }
 
+.lg-backdrop.in { opacity: 0.8!important }
+
 /*=====  End of Global Styles  ======*/
 
 .cci-center-block {
