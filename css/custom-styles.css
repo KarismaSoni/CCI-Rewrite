@@ -9,6 +9,9 @@ a:hover { color: #76cae9; text-decoration: none; }
 hr { border-color: #aaa; }
 
 .cci-m-top { margin-top: 10px; }
+
+.cci-font-color-orange { color: #da8044; }
+
 /*=====  End of Global Styles  ======*/
 
 .cci-center-block {
@@ -390,35 +393,29 @@ footer .cci-footer {
 	left: 300px;
 }
 
-/* automotive carosuel */
-/*.carousel-indicators li {
-    height: 70px;
-    width: 157px;
+/*=====  the-art-gallery  ======*/
+#art-color-gallery img { 
+  border: 1px solid #ddd; 
+  height: 250px; 
+  width: 280px; 
+  margin-bottom: 10px; 
 }
 
-.carousel-indicators data-slide-to[0] {
-   background:url('images/AutomotiveColor/AutomotiveColorToolsandMatches .jpg');
+#art-color-gallery div span {
+  left: 15px;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  right: -2px;
+  padding: 25px 15px;
 }
-.carousel-indicators data-slide-to[1] {
-   background: url('images/AutomotiveColor/LuxuryAutomotiveColor.jpg');
-}.carousel-indicators data-slide-to[2] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[3] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[4] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[5] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[6] {
-   background: url('image/fksdjlfds.png');
-}*/
+
 
 #map {
   width: 100%;
   height: 400px;
 }
-
-
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
