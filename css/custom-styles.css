@@ -9,6 +9,11 @@ a:hover { color: #76cae9; text-decoration: none; }
 hr { border-color: #aaa; }
 
 .cci-m-top { margin-top: 10px; }
+
+.cci-font-color-orange { color: #da8044; }
+
+.lg-backdrop.in { opacity: 0.8!important }
+
 /*=====  End of Global Styles  ======*/
 
 .cci-center-block {
@@ -206,7 +211,7 @@ header.carousel { height: 60%; }
 }
 
 .carousel-map-img {
-	background-color: rgba(0, 0, 0, 0.5);
+	 background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     position: absolute;
     bottom: 0;
@@ -215,6 +220,19 @@ header.carousel { height: 60%; }
     padding: 15px 10px;
     font-size: 15px;
     width: 83%;
+}
+.cci-lightcolor {
+  background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 41px;
+    left: 182px;
+    height: auto;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 12px;
+    width: 36%;
+
 }
 
 .cci-page-title {
@@ -228,12 +246,53 @@ header.carousel { height: 60%; }
 	margin:0 auto;
 }
 
-
 .cci-image-size {
 	width: 282px;
 	height: 211px;
+  border:2px solid grey;
+  padding:3px;
+}
+.cci-specialtycolor-image:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom:0;
+    left:55px;
+    text-align: center;
+    padding: 16px 10px;
+    font-size: 15px;
+    width: 72%;
+  -webkit-transition:all 2s ease-in-out; 
+    transition:all 2s ease; 
 
 }
+.cci-lightcolor-image {
+  width:207px;
+
+}
+.cci-fundamentalcolor-image {
+ background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    height: auto;
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 15px;
+    width: 70%;
+}
+.cci-fundamentalcolor-border{
+  border-bottom:2px solid black;
+  width: 34%;
+  margin-top: -5px;
+}
+.cci-fundamentalcolor {
+  color:grey;
+  font-size:15px;
+
+} 
+
 
 /*=====  Color Solutions  ======*/
 .cci-browse-by-industry h4 {
@@ -301,6 +360,10 @@ footer {
   background: #EEEEEE;
 }
 
+.cci-footer-image {
+  width:118px;
+  height:91.5625px;
+}
 footer .cci-footer {
   margin: 20px 0;
   padding: 20px 0;
@@ -332,35 +395,29 @@ footer .cci-footer {
 	left: 300px;
 }
 
-/* automotive carosuel */
-/*.carousel-indicators li {
-    height: 70px;
-    width: 157px;
+/*=====  the-art-gallery  ======*/
+#art-color-gallery img { 
+  border: 1px solid #ddd; 
+  height: 250px; 
+  width: 280px; 
+  margin-bottom: 10px; 
 }
 
-.carousel-indicators data-slide-to[0] {
-   background:url('images/AutomotiveColor/AutomotiveColorToolsandMatches .jpg');
+#art-color-gallery div span {
+  left: 15px;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  right: -2px;
+  padding: 25px 15px;
 }
-.carousel-indicators data-slide-to[1] {
-   background: url('images/AutomotiveColor/LuxuryAutomotiveColor.jpg');
-}.carousel-indicators data-slide-to[2] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[3] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[4] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[5] {
-   background: url('image/fksdjlfds.png');
-}.carousel-indicators data-slide-to[6] {
-   background: url('image/fksdjlfds.png');
-}*/
+
 
 #map {
   width: 100%;
   height: 400px;
 }
-
-
 
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
