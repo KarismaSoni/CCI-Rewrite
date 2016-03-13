@@ -419,6 +419,8 @@ footer .cci-footer {
   height: 400px;
 }
 
+.warehousing-services-para {  margin:15px;}
+
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
 	.cci-footer-list {
