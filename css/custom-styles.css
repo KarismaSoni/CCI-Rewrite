@@ -419,6 +419,13 @@ footer .cci-footer {
   height: 400px;
 }
 
+.research-development-image {
+  width:400px;
+  height:435px;
+  margin-left:20px;
+  border:1px solid grey;
+  padding:1px;
+}
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
 	.cci-footer-list {
