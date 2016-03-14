@@ -419,6 +419,14 @@ footer .cci-footer {
   height: 400px;
 }
 
+.reserch-development-image {
+  width:400px;
+  height:435px;
+  margin-left:20px;
+  border:1px solid grey;
+  padding:1px;
+}
+
 .warehousing-services-para {  margin:15px;}
 
 /*=====  Media Queries  ======*/
