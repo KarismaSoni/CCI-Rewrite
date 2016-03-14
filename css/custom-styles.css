@@ -17,7 +17,7 @@ hr { border-color: #aaa; }
 /*=====  End of Global Styles  ======*/
 
 .cci-center-block {
-	float: none;
+	 float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -427,6 +427,31 @@ footer .cci-footer {
   padding:1px;
 }
 
+.cci-hoverlink-effect a {
+  background-color:black;
+  color:white;
+  padding:16px;
+  font-size:15px;
+  font-weight:bold;
+  width:50%;
+}
+.cci-hoverlink-effect a:hover {
+  background:grey;
+  color:white;
+}
+
+.cci-equipment-technology-hoverlink a {
+  background-color:black;
+  color:white;
+  padding:16px;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.cci-equipment-technology-hoverlink a:hover {
+  background:grey;
+  color:white;
+}
 .warehousing-services-para {  margin:15px;}
 
 /*=====  Media Queries  ======*/
