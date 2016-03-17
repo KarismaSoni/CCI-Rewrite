@@ -14,10 +14,13 @@ hr { border-color: #aaa; }
 
 .lg-backdrop.in { opacity: 0.8!important }
 
+.pgwSlideshow ul { padding: 0; }
+.pgwSlideshow .ps-caption a { color: #fff; font-size: 14px; }
+
 /*=====  End of Global Styles  ======*/
 
 .cci-center-block {
-	float: none;
+	 float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -322,21 +325,13 @@ header.carousel { height: 60%; }
     font-size: 12px;
 }
 
-.pgwSlideshow ul {
-    padding: 0;
-}
-
-.pgwSlideshow img {
+.cci-color-solutions .pgwSlideshow img {
     width: 100%;
     height: 460px;
 }
-.pgwSlideshow .ps-caption {
+.cci-color-solutions .pgwSlideshow .ps-caption {
     top: 0;
     bottom: auto;
-}
-.pgwSlideshow .ps-caption a {
-    color: #fff;
-    font-size: 14px;
 }
 
 /*===Sitemap====*/
@@ -426,6 +421,51 @@ footer .cci-footer {
   border:1px solid grey;
   padding:1px;
 }
+
+.cci-hoverlink-effect a {
+  background-color:black;
+  color:white;
+  padding:16px;
+  font-size:15px;
+  font-weight:bold;
+  width:50%;
+}
+.cci-hoverlink-effect a:hover {
+  background:grey;
+  color:white;
+}
+
+.cci-equipment-technology-hoverlink a {
+  background-color:black;
+  color:white;
+  padding:16px;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.cci-equipment-technology-hoverlink a:hover {
+  background:grey;
+  color:white;
+}
+
+/*=========ColorTac======*/
+.cci-colorTac-slider img { 
+    width: 100%; 
+    height: 500px !important; 
+}
+
+.cci-color-tac .pgwSlideshow .ps-caption {
+  bottom: 0 !important;
+}
+
+.cci-color-tac .pgwSlideshow img {
+    width: 100%;
+    height: 550px;
+}
+*/
+
+.warehousing-services-para {  margin:15px;}
+
 /*=====  Media Queries  ======*/
 @media screen and  ( max-width: 991px ) {
 	.cci-footer-list {
