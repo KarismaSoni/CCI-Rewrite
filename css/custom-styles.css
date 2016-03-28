@@ -428,7 +428,7 @@ footer .cci-footer {
   padding:16px;
   font-size:15px;
   font-weight:bold;
-  width:50%;
+  width:60%;
 }
 .cci-hoverlink-effect a:hover {
   background:grey;
@@ -441,6 +441,7 @@ footer .cci-footer {
   padding:16px;
   font-size:15px;
   font-weight:bold;
+  width:20%;
 }
 
 .cci-equipment-technology-hoverlink a:hover {
