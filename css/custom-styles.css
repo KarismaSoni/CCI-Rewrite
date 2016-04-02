@@ -17,6 +17,12 @@ hr { border-color: #aaa; }
 .pgwSlideshow ul { padding: 0; }
 .pgwSlideshow .ps-caption a { color: #fff; font-size: 14px; }
 
+h1, h2, h3, h4, h5, h6 { font-family: 'Questrial', sans-serif; }
+h1 { font-size: 48px; font-weight: 400; }
+h2 { font-size: 35px; font-weight: 200; }
+h4 { font-weight: bold; }
+p { font-family: 'News Cycle', sans-serif; font-size: 16px; font-weight: 200; line-height: 20px; color: #515151; }
+
 /*=====  End of Global Styles  ======*/
 
 .cci-center-block {
@@ -161,7 +167,7 @@ header.carousel { height: 60%; }
 
 /*===== Home ======*/
 .cci-home-color-sell {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .cci-accuracy-expertise img { 
@@ -187,7 +193,6 @@ header.carousel { height: 60%; }
 }
 
 .cci-innovation-text ul li {
-  font-style: italic;
   margin-top: 5px;
 }
 
@@ -428,7 +433,7 @@ footer .cci-footer {
   padding:16px;
   font-size:15px;
   font-weight:bold;
-  width:50%;
+  width:60%;
 }
 .cci-hoverlink-effect a:hover {
   background:grey;
@@ -441,11 +446,33 @@ footer .cci-footer {
   padding:16px;
   font-size:15px;
   font-weight:bold;
+  width:20%;
 }
 
 .cci-equipment-technology-hoverlink a:hover {
   background:grey;
   color:white;
+}
+
+/*=========Innovation Technology======*/
+.cci-innovation-tech .color-production a {
+  position: relative;
+}
+
+.cci-innovation-tech .color-production img {
+  width: 100%;
+  height: 435px;
+  margin-bottom: 10px; 
+}
+.cci-innovation-tech .color-production .hover {
+   background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    bottom: -206px;  // TODO: Check here there should be better way to handle this.
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 15px;
+    width: 100%;
 }
 
 /*=========ColorTac======*/
@@ -462,7 +489,7 @@ footer .cci-footer {
     width: 100%;
     height: 550px;
 }
-*/
+
 
 .warehousing-services-para {  margin:15px;}
 
