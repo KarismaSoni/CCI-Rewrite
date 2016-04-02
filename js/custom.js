@@ -10,8 +10,8 @@
 
 
     // Script to show/hide tooltip on hover
-    $('.col-md-3.slider-images span').css('display', 'none')
-    $('.col-md-3.slider-images').hover(function() {
+    $('.slider-images span').css('display', 'none')
+    $('.slider-images').hover(function() {
         $(this).find('span').slideDown('100')
     }, function() {
         $(this).find('span').slideUp('100')
