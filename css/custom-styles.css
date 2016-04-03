@@ -260,7 +260,7 @@ header.carousel { height: 60%; }
   border:2px solid grey;
   padding:3px;
 }
-.cci-specialtycolor-image:hover{
+/*.cci-specialtycolor-image:hover{
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     position: absolute;
@@ -273,7 +273,7 @@ header.carousel { height: 60%; }
   -webkit-transition:all 2s ease-in-out; 
     transition:all 2s ease; 
 
-}
+}*/
 .cci-lightcolor-image {
   width:207px;
 
