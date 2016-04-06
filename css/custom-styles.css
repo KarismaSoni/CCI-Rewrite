@@ -411,6 +411,7 @@ footer .cci-footer {
   position: absolute;
   right: -4px;
   padding: 25px 15px;
+  text-align: center;
 }
 .col-centered {
   display: inline-block;
@@ -473,7 +474,7 @@ footer .cci-footer {
    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     position: absolute;
-    bottom: -206px;  // TODO: Check here there should be better way to handle this.
+    bottom: -206px;       /*TODO: Check here there should be better way to handle this.*/
     text-align: center;
     padding: 15px 10px;
     font-size: 15px;
