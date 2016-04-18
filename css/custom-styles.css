@@ -497,12 +497,15 @@ footer .cci-footer {
 @media screen and  ( max-width: 991px ) {
 	.cci-footer-list {
 		border-bottom: 1px solid #eee;
-  		text-align: center;
-  		margin: 10px 0;
+  	text-align: center;
+  	margin: 10px 0;
     }
     .cci-footer-list:last-child {
 		border: none;
     }
+    .carousel-caption { right: 0; }
+  .cci-brand-icons.pull-right { float: none !important; }
+   
 }
 @media screen and ( max-width: 768px ) {
 	.carousel-caption { right: 0; }
