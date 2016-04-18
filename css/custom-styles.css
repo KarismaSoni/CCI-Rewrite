@@ -520,6 +520,7 @@ footer .cci-footer {
     width: auto !important;
     overflow-x: hidden !important;
   }
+  
 }
 @media screen and  ( max-width: 991px ) {
   .cci-footer-list {
