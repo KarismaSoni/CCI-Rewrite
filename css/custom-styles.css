@@ -260,7 +260,7 @@ header.carousel { height: 60%; }
   border:2px solid grey;
   padding:3px;
 }
-/*.cci-specialtycolor-image:hover{
+.cci-specialtycolor-image:hover{
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     position: absolute;
@@ -273,7 +273,7 @@ header.carousel { height: 60%; }
   -webkit-transition:all 2s ease-in-out; 
     transition:all 2s ease; 
 
-}*/
+}
 .cci-lightcolor-image {
   width:207px;
 
@@ -337,6 +337,22 @@ header.carousel { height: 60%; }
 .cci-color-solutions .pgwSlideshow .ps-caption {
     top: 0;
     bottom: auto;
+}
+/*=====Automotive====*/
+
+.cci-automotive-image ul li a {
+  background-color: #000066;
+  padding: 10px;
+  position: relative;
+  left: 400px;
+  display: inline;
+  float: left;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-decoration: none;
+}
+#banners li {
+    display: none;
 }
 
 /*===Sitemap====*/
@@ -495,7 +511,6 @@ footer .cci-footer {
     width: 100%;
     height: 550px;
 }
-
 
 .warehousing-services-para {  margin:15px;}
 

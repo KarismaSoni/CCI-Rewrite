@@ -51,3 +51,11 @@
 })();
 
 
+/*automotive*/
+$('#banners li').each(function(index, value) {
+    setTimeout(function() {
+        $(value).show().siblings().hide();
+    }, 1000 * (index + 1));
+});
+
+ 
