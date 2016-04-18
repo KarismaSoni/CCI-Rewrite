@@ -515,8 +515,14 @@ footer .cci-footer {
 .warehousing-services-para {  margin:15px;}
 
 /*=====  Media Queries  ======*/
+@media screen and  ( max-width: 1024px ) {
+  html,body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+}
 @media screen and  ( max-width: 991px ) {
-	.cci-footer-list {
+  .cci-footer-list {
 		border-bottom: 1px solid #eee;
   		text-align: center;
   		margin: 10px 0;
