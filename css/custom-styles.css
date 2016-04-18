@@ -520,8 +520,7 @@ footer .cci-footer {
     width: auto !important;
     overflow-x: hidden !important;
   }
-  .navbar-fixed-top { position: absolute !important; }
-  .back-to-top { right: 20px; }
+  
 }
 @media screen and  ( max-width: 991px ) {
   .cci-footer-list {
@@ -537,5 +536,6 @@ footer .cci-footer {
 @media screen and ( max-width: 768px ) {
 	.carousel-caption { right: 0; }
 	.cci-brand-icons.pull-right { float: none !important; }
-  
+  .navbar-fixed-top { position: absolute !important; }
+  .back-to-top { right: 20px; }
 }
