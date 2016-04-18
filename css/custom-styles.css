@@ -338,6 +338,22 @@ header.carousel { height: 60%; }
     top: 0;
     bottom: auto;
 }
+/*=====Automotive====*/
+
+.cci-automotive-image ul li a {
+  background-color: #000066;
+  padding: 10px;
+  position: relative;
+  left: 400px;
+  display: inline;
+  float: left;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-decoration: none;
+}
+#banners li {
+    display: none;
+}
 
 /*===Sitemap====*/
 
@@ -409,10 +425,16 @@ footer .cci-footer {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   position: absolute;
-  right: -2px;
+  right: -4px;
   padding: 25px 15px;
+  text-align: center;
 }
-
+.col-centered {
+  display: inline-block;
+  position: relative;
+  left: 120px;
+  width: 293px;
+}
 
 #map {
   width: 100%;
@@ -468,7 +490,7 @@ footer .cci-footer {
    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     position: absolute;
-    bottom: -206px;  // TODO: Check here there should be better way to handle this.
+    bottom: -206px;       /*TODO: Check here there should be better way to handle this.*/
     text-align: center;
     padding: 15px 10px;
     font-size: 15px;
@@ -490,12 +512,17 @@ footer .cci-footer {
     height: 550px;
 }
 
-
 .warehousing-services-para {  margin:15px;}
 
 /*=====  Media Queries  ======*/
+@media screen and  ( max-width: 1024px ) {
+  html,body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+}
 @media screen and  ( max-width: 991px ) {
-	.cci-footer-list {
+  .cci-footer-list {
 		border-bottom: 1px solid #eee;
   	text-align: center;
   	margin: 10px 0;
@@ -503,12 +530,12 @@ footer .cci-footer {
     .cci-footer-list:last-child {
 		border: none;
     }
-    .carousel-caption { right: 0; }
+  .carousel-caption { right: 0; }
   .cci-brand-icons.pull-right { float: none !important; }
-   
 }
 @media screen and ( max-width: 768px ) {
 	.carousel-caption { right: 0; }
 	.cci-brand-icons.pull-right { float: none !important; }
-   
+  .navbar-fixed-top { position: absolute !important; }
+  .back-to-top { right: 20px; }
 }
