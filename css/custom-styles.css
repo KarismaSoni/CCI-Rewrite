@@ -543,6 +543,17 @@ footer .cci-footer {
      right: 15px;
      font-size: 13px;
      }
+    h1 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 20px;
+    }
 }
 @media screen and ( max-width: 768px ) {
   .carousel-caption { right: 0; }
@@ -557,14 +568,50 @@ footer .cci-footer {
     margin-top: 15px;
   }
   h1 {
-    font-size: 22px;
-    font-weight: bold;
-  }
-  h2 {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  h3 {
-    font-size: 16px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    h4 {
+      font-size: 15px;
+    }
+    .cci-browse-by-industry  video {
+      width: 230px;
+      height: 250px;
+    }
+    #art-color-gallery img { 
+      position: relative;
+      right: 120px;
+    }
+
+    #art-color-gallery div span {
+     position: absolute;
+     bottom: 15px;
+     left: -105px;
+     width: 96%;
+     
+    }
+    .cci-fundamental-mediaquery-img {
+    margin-left: 25px;
+    }
+    .decorative-color-img {
+     margin-left: 70px;
+    }
+    .cci-lightcolor-mediaquery video {
+      width: 300px;
+    }
+    .cci-lightcolor {
+      position: absolute;
+      left: 14px;
+      width: 88%;
+    }
+    .cci-equipment-technology-hoverlink a {
+      width:100%;
   }
 }
