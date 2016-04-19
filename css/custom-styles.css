@@ -223,6 +223,7 @@ header.carousel { height: 60%; }
     color: #fff;
     position: absolute;
     bottom: 0;
+    right: 33px;
     height: auto;
     text-align: center;
     padding: 15px 10px;
@@ -512,6 +513,7 @@ footer .cci-footer {
     height: 550px;
 }
 
+
 .warehousing-services-para {  margin:15px;}
 
 /*=====  Media Queries  ======*/
@@ -531,11 +533,38 @@ footer .cci-footer {
     .cci-footer-list:last-child {
 		border: none;
     }
-   
+    .cci-brand-icons {
+      display: inline;
+      text-align: center;
+     
+    }
+    .fa.fa-facebook, .fa.fa-twitter, .fa.fa-linkedin, .fa.fa-google-plus, .fa.fa-pinteres, .fa.fa-pinterest, .fa.fa-youtube, .fa.fa-envelope {
+     position: relative;
+     right: 15px;
+     font-size: 13px;
+     }
 }
 @media screen and ( max-width: 768px ) {
-	.carousel-caption { right: 0; }
+  .carousel-caption { right: 0; }
 	.cci-brand-icons.pull-right { float: none !important; }
   .navbar-fixed-top { position: absolute !important; }
   .back-to-top { right: 20px; }
+  .carousel-map-img {
+    right: 30px;
+    width: 81%;
+  }
+  .mapimg {
+    margin-top: 15px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 16px;
+  }
 }
