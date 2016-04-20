@@ -443,7 +443,7 @@ footer .cci-footer {
   border: 1px solid black;
 }
 
-.reserch-development-image {
+.research-development-image {
   width:400px;
   height:435px;
   margin-left:20px;
@@ -533,7 +533,10 @@ footer .cci-footer {
     .cci-footer-list:last-child {
 		  border: none;
     }
-    .cci-brand-icons {
+   .carousel-caption { right: 0; }
+   .cci-brand-icons.pull-right { float: none !important; }
+  
+  .cci-brand-icons {
       display: inline;
     }
     .fa.fa-facebook, .fa.fa-twitter, .fa.fa-linkedin, .fa.fa-google-plus, .fa.fa-pinterest, .fa.fa-youtube, .fa.fa-envelope {
@@ -583,6 +586,7 @@ footer .cci-footer {
     h3 {
       font-size: 20px;
     }*/
+
 }
 @media screen and ( max-width: 768px ) {
   .carousel-caption { right: 0; }
