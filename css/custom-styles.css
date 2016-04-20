@@ -522,27 +522,55 @@ footer .cci-footer {
     width: auto !important;
     overflow-x: hidden !important;
   }
-  
 }
 @media screen and  ( max-width: 991px ) {
   .cci-footer-list {
-		border-bottom: 1px solid #eee;
+		  border-bottom: 1px solid #eee;
   		text-align: center;
   		margin: 10px 0;
     }
     .cci-footer-list:last-child {
-		border: none;
+		  border: none;
     }
     .cci-brand-icons {
       display: inline;
-      text-align: center;
-     
     }
     .fa.fa-facebook, .fa.fa-twitter, .fa.fa-linkedin, .fa.fa-google-plus, .fa.fa-pinteres, .fa.fa-pinterest, .fa.fa-youtube, .fa.fa-envelope {
-     position: relative;
-     right: 15px;
-     font-size: 13px;
-     }
+       position: relative;
+       right:20px;
+       font-size: 13px;
+    }
+
+    .cci-brand-icons-footer-mediaquery .fa.fa-facebook  {
+      position: relative;
+      right: 40px;
+    }
+    .cci-brand-icons-footer-mediaquery .fa.fa-twitter {
+      position: relative;
+      right: 40px;
+    }
+    .cci-brand-icons-footer-mediaquery .fa.fa-linkedin {
+      position: relative;
+      right: 40px;
+    }
+    .cci-brand-icons-footer-mediaquery .fa.fa-google-plus {
+      position: relative;
+      right: 40px;
+    }
+    .cci-brand-icons-footer-mediaquery .fa.fa-pinterest{
+      position: relative;
+      right: 40px;
+    }
+    .cci-brand-icons-footer-mediaquery .fa.fa-youtube {
+      position: relative;
+      right: 40px;
+    }
+
+    .cci-brand-icons-footer-mediaquery .fa.fa-envelope {
+        position: relative;
+        left: 103px;
+        bottom: 32px;
+    }
     h1 {
       font-size: 25px;
       font-weight: bold;
@@ -559,7 +587,7 @@ footer .cci-footer {
   .carousel-caption { right: 0; }
 	.cci-brand-icons.pull-right { float: none !important; }
   .navbar-fixed-top { position: absolute !important; }
-  .back-to-top { right: 20px; }
+  .back-to-top { right:20px; z-index: 1;}
   .carousel-map-img {
     right: 29px;
     width: 80%;
@@ -598,10 +626,10 @@ footer .cci-footer {
      
     }
     .cci-fundamental-mediaquery-img {
-    margin-left: 25px;
+      margin-left: 25px;
     }
     .decorative-color-img {
-     margin-left: 70px;
+      margin-left: 70px;
     }
     .cci-lightcolor-mediaquery video {
       width: 300px;
@@ -613,5 +641,10 @@ footer .cci-footer {
     }
     .cci-equipment-technology-hoverlink a {
       width:100%;
-  }
+    }
+    .colorcard-mediaquery {
+      position: relative;
+      left: 125px;
+    }
+    
 }
