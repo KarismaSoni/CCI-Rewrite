@@ -523,6 +523,7 @@ footer .cci-footer {
     width: auto !important;
     overflow-x: hidden !important;
   }
+
 }
 @media screen and  ( max-width: 991px ) {
   .cci-footer-list {
@@ -544,49 +545,6 @@ footer .cci-footer {
        right:20px;
        font-size: 13px;
     }
-
-    .cci-brand-icons-footer-mediaquery .fa.fa-facebook  {
-      position: relative;
-      right: 40px;
-    }
-    .cci-brand-icons-footer-mediaquery .fa.fa-twitter {
-      position: relative;
-      right: 40px;
-    }
-    .cci-brand-icons-footer-mediaquery .fa.fa-linkedin {
-      position: relative;
-      right: 40px;
-    }
-    .cci-brand-icons-footer-mediaquery .fa.fa-google-plus {
-      position: relative;
-      right: 40px;
-    }
-    .cci-brand-icons-footer-mediaquery .fa.fa-pinterest{
-      position: relative;
-      right: 40px;
-    }
-    .cci-brand-icons-footer-mediaquery .fa.fa-youtube {
-      position: relative;
-      right: 40px;
-    }
-
-    .cci-brand-icons-footer-mediaquery .fa.fa-envelope {
-        position: relative;
-        left: 103px;
-        bottom: 32px;
-    }
-   /* h1 {
-      font-size: 25px;
-      font-weight: bold;
-    }
-    h2 {
-      font-size: 20px;
-      font-weight: bold;
-    }
-    h3 {
-      font-size: 20px;
-    }*/
-
 }
 @media screen and ( max-width: 768px ) {
   .carousel-caption { right: 0; }
@@ -594,33 +552,19 @@ footer .cci-footer {
   .navbar-fixed-top { position: absolute !important; }
   .back-to-top { right:20px; z-index: 1;}
   .carousel-map-img {
-    right: 29px;
-    width: 80%;
+    right: 30px;
+    width: 82%;
   }
   .mapimg {
     margin-top: 15px;
   }
-  .test {
-    color: brown;
-  }
-/*  h1 {
-      font-size: 22px;
-      font-weight: bold;
-  }
-  h2 {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  h3 {
-    font-size: 16px;
-  }
-  h4 {
-    font-size: 15px;
 
-  }*/
+  .cci-difference-mediaquery {
+    margin-left: 18px;
+  }
   .cci-browse-by-industry  video {
-    width: 230px;
-    height: 250px;
+    width: 100%;
+    height: auto;
   }
   #art-color-gallery img { 
     position: relative;
@@ -632,7 +576,6 @@ footer .cci-footer {
    bottom: 15px;
    left: -105px;
    width: 96%;
-   
   }
   .cci-fundamental-mediaquery-img {
     margin-left: 25px;
@@ -657,48 +600,34 @@ footer .cci-footer {
 
   .colorcard-mediaquery {
     position: relative;
-    left: 125px;
+    left: 150px;
   }
   .cci-font-color-orange {
     float:left;
-    margin: 10px 20px;
+    margin: 10px 30px;
   }
   .cci-artcolor-mediaquery-img {
-    margin-left: 110px;
+    margin-left: 135px;
     width: 100%;
   }
   .cci-standards-mediaquery {
     text-align: center;
   }
-}
-@media screen and (min-width: 680px) {
-  body {
-    font-size: 1.4em; } }
-@media screen and (min-width: 1224px) {
-  body {
-    font-size: 1.6em; } }
-@media screen and (min-width: 1400px) {
-  body {
-    font-size: 1.8em; } }
-h1 {
-  font-size: 2em; }
+ 
+  h1 {
+    font-size: 1.52em; 
+    font-weight: 700;
+  }
+ h2 {
+    font-size: 1.5em;
+    font-weight: 600;  
+  }
 
-h2 {
-  font-size: 1.8em; }
+  h3 {
+    font-size: 1.4em; }
 
-h3 {
-  font-size: 1.6em; }
-
-h4 {
-  font-size: 1.4em; }
-
-h5 {
-  font-size: 1.2em; }
-
-p {
-  font-size: 1.2em; }
-
-h6 {
-  font-size: 1em; 
+  h4 {
+    font-size: 1em; }
 
 }
+
