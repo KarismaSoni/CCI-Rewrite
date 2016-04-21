@@ -31,9 +31,6 @@
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/modern-business.css">
-
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
@@ -53,7 +50,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body class="cci-home">
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -249,7 +246,7 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row">
-            <div class="row text-center">
+            <div class="text-center">
                 <div class="row">
                     <div class="panel-body cci-brand-icons pull-right">
                         <ul>
@@ -280,16 +277,29 @@
                 <div class="col-md-10 cci-center-block">
                     <h1>WE MAKE COLOR SELL<small>&reg;</small></h1>
                     <hr>
-                    <p><strong><em>OUR MISSION:</strong> Develop, manufacture, and deliver superior quality products to any business with a need for accurate color. The advanced color replication methods used at CCI enable us to serve even the most specialized of color industries.</em></p>
+                    <p><em><strong>OUR MISSION:</strong> Develop, manufacture, and deliver superior quality products to any business with a need for accurate color. The advanced color replication methods used at CCI enable us to serve even the most specialized of color industries.</em></p>
                     <hr>
                 </div>
             </div>
-
-            <div class="col-md-12 cci-m-top">
+            <div class="col-md-12 clearfix">
                 <div class="col-md-4 pull-left">
-                    <img class="img-responsive" src="images/index/colorSell2.jpg" alt="Color Sell">
+                    <a href="#" data-toggle="modal" data-target="#myModal">
+                        <img class="img-responsive" src="images/index/colorSell2.jpg" alt="Color Sell">
+                    </a>
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img-responsive" src="images/index/colorSell2.jpg" alt="Color Sell">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
-                <div class="col-md-8 pull-right cci-home-color-sell">
+                <div class="col-md-8 pull-right cci-m-30">
                     <h2 class="text-center">ACCURATE COLOR LIVES AT CCI</h2>
                     <hr>
                     <p>Color Communications, Inc. (CCI) is the industry leader in the design, production, and manufacturing of the world's top color merchandising, solutions, systems, and tools. Our products cater to a wide variety of companies with a need for accurate color solutions.</p><br>
@@ -297,10 +307,10 @@
                     <p>CCI is proud to supply products that assist in the color selection process for most of the world's leading paint brands. Our expert color sampling products are diverse and extensive in reach.</p><br>
                     <p>Look to CCI for anything needing accurate color... Color cards, color chips, extensive color systems, fan decks, ColorTac&#8482; peel and place paint samples, specialty color solutions, automotive color solutions, and much more. If you can dream it, we can make it unforgettably colorful.</p>
                 </div>
-                <div class="col-md-12 text-center">
-                    <br><br>
-                    <h4><a href="contact.html" title="Contact CCI">Contact CCI today for more information, we look forward to hearing from you.</a></h4>
-                </div>
+            </div>
+            <div class="text-center">
+                <br><br>
+                <h4><a href="contact.html" title="Contact CCI">Contact CCI today for more information, we look forward to hearing from you.</a></h4>
             </div>
         </div>
         
@@ -345,25 +355,23 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="col-lg-12 cci-innovation-text">
-                <hr>
-                <h4>At CCI, we provide customers with a full range of services depending on their business needs. From concept to completion, our experts will work to meet and exceed your needs. Our spectrum of color-related services include:</h4>
-                <ul class="col-md-5">
-                    <li>Innovation; Creative Concept and Design</li>
-                    <li>Specialty ColorTac&trade; Adhesive Paint Samples </li>
-                    <li>Engineering</li>
-                    <li>Technology &amp; Specialized Machinery</li>
-                </ul>
-                <ul class="col-md-5">
-                    <li>Cutting Edge Printing Technologies</li>
-                    <li>Standards Production and Standards On Demand Department</li>
-                    <li>Warehousing and Inventory Management Services</li>
-                </ul>
-                <div class="row col-md-12 cci-m-top cci-link">
-                    <a href="contact.html" title="Contact Color Communication, Inc.">Contact Color Communication,Inc.</a>
-                    <strong>today to learn more about our world of color solutions, merchandise, and services.</strong>
-                </div>
+        <div class="col-lg-12 cci-m-30 cci-innovation-text">
+            <hr>
+            <h4>At CCI, we provide customers with a full range of services depending on their business needs. From concept to completion, our experts will work to meet and exceed your needs. Our spectrum of color-related services include:</h4>
+            <ul class="col-md-5">
+                <li>Innovation; Creative Concept and Design</li>
+                <li>Specialty ColorTac&trade; Adhesive Paint Samples </li>
+                <li>Engineering</li>
+                <li>Technology &amp; Specialized Machinery</li>
+            </ul>
+            <ul class="col-md-5">
+                <li>Cutting Edge Printing Technologies</li>
+                <li>Standards Production and Standards On Demand Department</li>
+                <li>Warehousing and Inventory Management Services</li>
+            </ul>
+            <div class="row col-md-12 cci-m-top cci-link">
+                <a href="contact.html" title="Contact Color Communication, Inc."><strong>Contact Color Communication,Inc.</strong></a>
+                <strong>today to learn more about our world of color solutions, merchandise, and services.</strong>
             </div>
         </div>
     </div>
@@ -372,16 +380,15 @@
     <!--footer-->
     <footer>
         <div class="container">
-            <div class="col-md-6 pull-right">
+            <div class="col-md-6 pull-right cci-m-30 clearfix">
                 <input type="text" class="form-control" placeholder="Search CCIColor.com"/>
                 <span class="fa fa-search"></span>
             </div>
-            <br>
-            <br>
-            <div class="row cci-footer cci-lists">
-                <div class="col-md-1 cci-footer-list">
+            <br><br>
+            <div class="cci-footer cci-m-30 clearfix">
+                <div class="col-md-1">
                     <img class="featuredImg" src="images/CCI-logo.png" alt="CCI-logo">
-                    <p class="text-center"> &copy;2015</p>
+                    <p class="text-center"> &copy;2016</p>
                 </div>
                 <ul class="col-md-2 navbar-collapse nav cci-footer-list">
                     <li>
@@ -520,13 +527,13 @@
                                     <a href="https://www.youtube.com/channel/UCRYL_Uw4AlJ12-TpSkfdHmA" title="Youtube" target='_blank' class="btn fa fa-youtube"></a>
                                 </li>
                                 <li>
-                                    <a href="mailto:christina.ccicolor@gmail.com" title="Email" target='_blank' class="btn fa fa-envelope"></a>
+                                    <a href="mailto:christina.ccicolor@gmail.com" title="Email" class="btn fa fa-envelope"></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="text-center">
-                        <p>Color Communications, Inc.2015</p>
+                        <p>Color Communications, Inc.2016</p>
                     </div>
                 </div>
             </div>

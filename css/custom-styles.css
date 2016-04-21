@@ -1,6 +1,15 @@
 /*=====================================
 =            Global Styles            =
 =====================================*/
+html,
+body { height: 100%; }
+body { font-family: 'News Cycle', sans-serif; font-size: 16px; font-weight: 200; line-height: 20px; color: #515151; padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */ }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Questrial', sans-serif; }
+h1 { font-size: 48px; font-weight: 400; }
+h2 { font-size: 35px; font-weight: 200; }
+h4 { font-weight: bold; }
+
 a:link,
 a:active,
 a:visited { color: #2559c9; }
@@ -9,33 +18,73 @@ a:hover { color: #76cae9; text-decoration: none; }
 hr { border-color: #aaa; }
 
 .cci-m-top { margin-top: 10px; }
-
+.cci-m-30 { margin-top: 30px; }
 .cci-font-color-orange { color: #da8044; }
-
-.lg-backdrop.in { opacity: 0.8!important }
-
+.lg-backdrop.in { opacity: 0.8 !important }
 .pgwSlideshow ul { padding: 0; }
 .pgwSlideshow .ps-caption a { color: #fff; font-size: 14px; }
-
 .cci-center-block { float: none; display: block; margin-left: auto; margin-right: auto; }
-
-body { font-family: 'News Cycle', sans-serif; font-size: 16px; font-weight: 200; line-height: 20px; color: #515151; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Questrial', sans-serif; }
-h1 { font-size: 48px; font-weight: 400; }
-h2 { font-size: 35px; font-weight: 200; }
-h4 { font-weight: bold; }
+.img-portfolio { margin-bottom: 30px; }
+.img-hover:hover { opacity: 0.8; }
+.error-404 { font-size: 100px; }
 /*=====  End of Global Styles  ======*/
 
 /*=====  Navigation  ======*/
 nav.navbar { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: normal; }
 
+/*=====  Slider  ======*/
+header.carousel { height: 50%; }
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner { height: 100%; }
+header.carousel .fill { width: 100%; height: 100%; background-size: cover; }
+.carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: auto; right: auto; bottom: auto; height: auto; text-align: left; top: 70%; padding: 10px 25px; font-size: 12px; }
+@media(min-width: 1025px) {
+  header.carousel { height: 60%; }
+}
+
+/*=====  Modal  ======*/
+.modal-dialog { width: 425px; margin: 55px auto; }
+.modal-content { position: fixed; }
+.modal-header { border: none; }
+.modal-header .close { margin-top: -15px; font-size: 50px; outline: none; }
+
+/*===== Home ======*/
+.cci-home .cci-accuracy-expertise img { height: 180px; width: 300px; }
+.cci-home .learn-more-btn { border-radius: 0; padding: 10px 20px; color: #000 !important; font-weight: bold; border-color: #000; margin-top: 10px; }
+.cci-home .cci-innovation-text ul { margin-left: 20px; }
+.cci-home .cci-innovation-text ul li { margin-top: 15px; }
+
+/*=====  Footer  ======*/
+footer { margin: 50px 0 20px 0; background: #EEEEEE; }
+footer .cci-footer { margin: 50px 0; padding: 20px 0; border-top: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; }
+.cci-footer-image { width: 135px; }
+
+/*=====  Responsive Styles  ======*/
+@media(max-width:991px) {
+  .customer-img,
+  .img-related {
+      margin-bottom: 30px;
+  }
+}
+
+@media(max-width:767px) {
+  .img-portfolio {
+    margin-bottom: 15px;
+  }
+
+  header.carousel .carousel {
+    height: 70%;
+  }
+}
+
+
+
+
+
 .cci-mission {
  	margin: 50px auto;
  }
-
-.col-md-6 {
-	position: relative;
-}
 
 .col-md-6  .fa-search {
 	position: absolute;
@@ -80,8 +129,7 @@ nav.navbar { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: no
 .cci-brand-icons a.fa-pinterest:hover { background:#BC2025;}
 .cci-brand-icons a.fa-youtube:hover { background:#E62117;}
 .cci-brand-icons a.fa-envelope:hover { background: #0071C5;}
-header.carousel { height: 60%; }
-.carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: 0; right: 75%; bottom: auto; height: auto; text-align: left; top: 70%; padding: 10px 15px; font-size: 12px; }
+
 
 
 
@@ -162,36 +210,7 @@ header.carousel { height: 60%; }
 	text-decoration: none;
 }
 
-/*===== Home ======*/
-.cci-home-color-sell {
-    margin-top: 30px;
-}
 
-.cci-accuracy-expertise img { 
-  height: 180px; 
-  width: 300px; 
-}
-
-.learn-more-btn {
-    border-radius: 0;
-    padding: 10px 20px;
-    color: #000 !important;
-    font-weight: bold;
-    border-color: #000;
-    margin-top: 10px;
-}
-
-.cci-innovation-text {
-  margin: 30px auto;
-}
-
-.cci-innovation-text ul {
-  margin-left: 20px;
-}
-
-.cci-innovation-text ul li {
-  margin-top: 5px;
-}
 
 /*====About=====*/
 .cci-color-history h2 {
@@ -367,23 +386,7 @@ header.carousel { height: 60%; }
   margin-left:40px;
   list-style-type:square;
 }
-/*=====  Footer  ======*/
-footer { 
-  padding: 50px 0 20px 0;
-  margin-bottom: 0;
-  background: #EEEEEE;
-}
 
-.cci-footer-image {
-  width:135px;
-  
-}
-footer .cci-footer {
-  margin: 20px 0;
-  padding: 20px 0;
-  border-top: 1px solid #AAAAAA;
-  border-bottom: 1px solid #AAAAAA;
-}
 
 /*=====  specialized-services  ======*/
 .specialized-services form input, .specialized-services form textarea {
@@ -531,7 +534,6 @@ footer .cci-footer {
     .cci-footer-list:last-child {
 		  border: none;
     }
-   .carousel-caption { right: 0; }
    .cci-brand-icons.pull-right { float: none !important; }
   
   .cci-brand-icons {
@@ -544,7 +546,6 @@ footer .cci-footer {
     }
 }
 @media screen and ( max-width: 768px ) {
-  .carousel-caption { right: 0; }
 	.cci-brand-icons.pull-right { float: none !important; }
   .navbar-fixed-top { position: absolute !important; }
   .back-to-top { right:20px; z-index: 1;}
