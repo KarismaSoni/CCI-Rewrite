@@ -73,6 +73,13 @@ footer { margin: 50px 0 20px 0; background: #eee; }
   .cci-footer .privacy-policy { width: auto; margin-left: 30px; }
 }
 
+/*==== Back-to-top arrow====*/
+.back-to-top { position: fixed; bottom: 2em; right: 2px; color: #000; background-color:#ccc; padding: 5px; }
+.back-to-top:hover { text-decoration: none; }
+@media(max-width: 768px) { 
+  .back-to-top { display: none; }
+}
+
 /*=====  Responsive Styles  ======*/
 @media(max-width:991px) {
   .customer-img,
@@ -208,20 +215,7 @@ footer { margin: 50px 0 20px 0; background: #eee; }
 	left: -139%;
 }
 
-/*====back-to-top arrow effect====*/
 
-.back-to-top {
-    position: fixed;
-    bottom: 2em;
-    right: 2px;
-    color: #000000;
-    background-color:#ccc;
-  	padding: 5px;
-}
-
-.back-to-top:hover {
-	text-decoration: none;
-}
 
 
 
@@ -553,7 +547,6 @@ footer { margin: 50px 0 20px 0; background: #eee; }
 @media screen and ( max-width: 768px ) {
 	.cci-brand-icons.pull-right { float: none !important; }
   .navbar-fixed-top { position: absolute !important; }
-  .back-to-top { right:20px; z-index: 1;}
   .carousel-map-img {
     right: 30px;
     width: 82%;
