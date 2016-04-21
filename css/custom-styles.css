@@ -58,15 +58,19 @@ header.carousel .fill { width: 100%; height: 100%; background-size: cover; }
 /*=====  Footer  ======*/
 footer { margin: 50px 0 20px 0; background: #eee; }
 .cci-footer { margin: 50px 0; padding: 20px 0; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; margin-bottom: 30px; }
-.cci-footer-image { width: 135px; margin-left: -20px; margin-bottom: 5px; }
+.cci-footer-image { width: 135px; margin-bottom: 5px; }
+.cci-footer .privacy-policy { width: 100px; text-align: center; }
 .cci-footer .nav-links { list-style-type: none; display: inline-block; padding-left: 20px; }
 .cci-footer .nav-links li { margin: 10px 0; }
 .cci-footer .nav-links ul { list-style-type: none; padding-left: 12px; }
 @media(min-width: 991px) { 
   .cci-footer .col-md-3 { width: 20%; }
+  .cci-footer-image { width: 135px; margin-left: -20px; margin-bottom: 5px; }
 }
 @media(max-width: 991px) { 
-  .cci-footer .col-md-1 { display: none; }
+  .cci-footer-image { margin-left: 25px; }
+  .cci-footer .col-md-1 { text-align: center; }
+  .cci-footer .privacy-policy { width: auto; margin-left: 30px; }
 }
 
 /*=====  Responsive Styles  ======*/
