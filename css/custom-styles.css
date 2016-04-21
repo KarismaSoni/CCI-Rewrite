@@ -56,9 +56,18 @@ header.carousel .fill { width: 100%; height: 100%; background-size: cover; }
 .cci-home .cci-innovation-text ul li { margin-top: 15px; }
 
 /*=====  Footer  ======*/
-footer { margin: 50px 0 20px 0; background: #EEEEEE; }
-footer .cci-footer { margin: 50px 0; padding: 20px 0; border-top: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; }
-.cci-footer-image { width: 135px; }
+footer { margin: 50px 0 20px 0; background: #eee; }
+.cci-footer { margin: 50px 0; padding: 20px 0; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; margin-bottom: 30px; }
+.cci-footer-image { width: 135px; margin-left: -20px; margin-bottom: 5px; }
+.cci-footer .nav-links { list-style-type: none; display: inline-block; padding-left: 20px; }
+.cci-footer .nav-links li { margin: 10px 0; }
+.cci-footer .nav-links ul { list-style-type: none; padding-left: 12px; }
+@media(min-width: 991px) { 
+  .cci-footer .col-md-3 { width: 20%; }
+}
+@media(max-width: 991px) { 
+  .cci-footer .col-md-1 { display: none; }
+}
 
 /*=====  Responsive Styles  ======*/
 @media(max-width:991px) {
@@ -526,14 +535,6 @@ footer .cci-footer { margin: 50px 0; padding: 20px 0; border-top: 1px solid #AAA
 
 }
 @media screen and  ( max-width: 991px ) {
-  .cci-footer-list {
-		  border-bottom: 1px solid #eee;
-  		text-align: center;
-  		margin: 10px 0;
-    }
-    .cci-footer-list:last-child {
-		  border: none;
-    }
    .cci-brand-icons.pull-right { float: none !important; }
   
   .cci-brand-icons {
