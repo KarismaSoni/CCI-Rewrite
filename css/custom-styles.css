@@ -420,7 +420,9 @@ footer { margin: 50px 0 0 0; background: #eee; }
   .cci-standards-mediaquery {
     text-align: center;
   }
- 
+  .cci-sitemap {
+    margin-left: 60px;
+  }
   h1 {
     font-size: 1.52em; 
     font-weight: 700;
