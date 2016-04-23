@@ -39,16 +39,9 @@
         e.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
         return false;
-    })
-
+    });
+    
 })();
 
-
-/*automotive*/
-$('#banners li').each(function(index, value) {
-    setTimeout(function() {
-        $(value).show().siblings().hide();
-    }, 1000 * (index + 1));
-});
 
  

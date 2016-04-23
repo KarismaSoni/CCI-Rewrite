@@ -155,6 +155,13 @@ footer { margin: 50px 0 0 0; background: #eee; }
 .cci-fundamentalcolor-border{ border-bottom:2px solid black; width: 34%; margin-top: -5px; }
 .cci-fundamentalcolor { color:grey; font-size:15px; }
 
+/*===== Automotive ====*/
+.cci-automotive-oem #myTab a { letter-spacing: 1px; font-weight: bold; letter-spacing: 1px; cursor: pointer; }
+.cci-automotive-oem .tab-content img { border: 1px solid #ddd; }
+.cci-automotive-oem footer { margin-top: 0; }
+@media screen and  ( max-width: 768px ) {
+  .cci-automotive-oem .tab-content img { width: 100% }
+}
 
 /*=====  Color Solutions  ======*/
 .cci-browse-by-industry h4 {
@@ -184,22 +191,8 @@ footer { margin: 50px 0 0 0; background: #eee; }
     font-size: 12px;
 }
 
-/*=====Automotive====*/
 
-.cci-automotive-image ul li a {
-  background-color: #000066;
-  padding: 10px;
-  position: relative;
-  left: 400px;
-  display: inline;
-  float: left;
-  color: #FFFFFF;
-  font-size: 18px;
-  text-decoration: none;
-}
-#banners li {
-    display: none;
-}
+
 
 /*===Sitemap====*/
 
