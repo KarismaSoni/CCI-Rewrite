@@ -19,16 +19,9 @@
 
 
     // Script to active slider on color solution page
-    $('.cci-solutions-slider').pgwSlideshow({
+    $('.pgwSlideshow').pgwSlideshow({
         autoSlide: true,
         intervalDuration: 4000
-    });
-
-    // Script to active slider on ColorTec page
-    $('.cci-colorTac-slider').pgwSlideshow({
-        autoSlide: true,
-        intervalDuration: 4000,
-        displayList: false
     });
 
     // Script to scroll page to top
@@ -46,16 +39,9 @@
         e.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
         return false;
-    })
-
+    });
+    
 })();
 
-
-/*automotive*/
-$('#banners li').each(function(index, value) {
-    setTimeout(function() {
-        $(value).show().siblings().hide();
-    }, 1000 * (index + 1));
-});
 
  
