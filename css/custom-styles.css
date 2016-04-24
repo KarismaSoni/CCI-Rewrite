@@ -163,8 +163,10 @@ footer { margin: 50px 0 0 0; background: #eee; }
   .cci-automotive-oem .tab-content img { width: 100% }
 }
 
-/*=====  Australasia  ======*/
-.cci-australasia .carousel-indicators { display: none; }
+/*=====  Europe, Australasia, North America  ======*/
+.cci-australasia .carousel-indicators,
+.cci-europe .carousel-indicators,
+.cci-north-america .carousel-indicators { display: none; }
 
 /*=====  Color Solutions  ======*/
 .cci-browse-by-industry h4 {
