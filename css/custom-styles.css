@@ -356,13 +356,13 @@ footer { margin: 50px 0 0 0; background: #eee; }
 .warehousing-services-para {  margin:15px;}
 
 /*=====  Media Queries  ======*/
-@media screen and  ( max-width: 1024px ) {
+/*@media screen and  ( max-width: 1024px ) {
   html,body {
     width: auto !important;
     overflow-x: hidden !important;
   }
 
-}
+}*/
 
 @media screen and ( max-width: 768px ) {
   .navbar-fixed-top { position: absolute !important; }
