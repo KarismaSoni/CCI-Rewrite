@@ -6,7 +6,7 @@
     });
     
     // Script to active lightGallery slider
-    $('#art-color-gallery').lightGallery();
+    $('#light-gallery').lightGallery();
 
 
     // Script to show/hide tooltip on hover
