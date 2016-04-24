@@ -144,8 +144,11 @@ footer { margin: 50px 0 0 0; background: #eee; }
 
 /*==== Global Color Experts ====*/
 .cci-global-color-experts .mapimg { border: 1px solid black; }
-.cci-global-color-experts .carousel-map-img { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; bottom: 0; right: 0;  text-align: center; padding: 15px 10px; font-size: 15px; width: 100%; }
+.cci-global-color-experts .carousel-map-img { right: 15px; left: 15px; bottom: 0; background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; padding: 25px 15px; text-align: center; }
 .cci-global-color-experts .worldwide a { display: block; position: relative; }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .cci-global-color-experts .carousel-map-img { width: calc(100% - 350px); margin: 0 auto; }
+}
 
 /*==== Light and Color Decorative Details ====*/
 .cci-lightcolor { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; bottom: 41px; left: 182px; height: auto; text-align: center; padding: 10px 5px; font-size: 12px; width: 36%; }
