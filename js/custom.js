@@ -5,7 +5,9 @@
         interval: 4000 //changes the speed
     });
     
-    // Script to active lightGallery slider
+    /* Script to active lightGallery slider on the following pages
+    * color-cards.html
+    */
     $('#light-gallery').lightGallery();
 
 
@@ -17,8 +19,9 @@
         $(this).find('span').slideUp('100')
     });
 
-
-    // Script to active slider on color solution page
+    /* Script to active pgwSlider on the following pages 
+    * automotive-oem-refinish.html
+    */
     $('.pgwSlideshow').pgwSlideshow({
         autoSlide: true,
         intervalDuration: 4000
