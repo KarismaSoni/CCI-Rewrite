@@ -1,0 +1,57 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+	opacity:0;
+    -webkit-animation:fadeIn ease-in 1; 
+    	-moz-animation:fadeIn ease-in 1;
+    	animation:fadeIn ease-in 1;
+ 
+    -webkit-animation-fill-mode:forwards;  
+    	-moz-animation-fill-mode:forwards;
+    	animation-fill-mode:forwards;
+ 
+    -webkit-animation-duration:0.3s;
+    	-moz-animation-duration:0.3s;
+    	animation-duration:0.3s;
+    
+
+    -webkit-animation-delay: 0.5s;
+		-moz-animation-delay: 0.5s;
+		animation-delay: 0.5s;
+}
+
+.splash { background: url('../images/index/splash-bg.jpg') center center; position: fixed; top: 0; right: 0; bottom: 0; left: 0; min-height: 360px; z-index: 999; background-size: cover; background-attachment: fixed; text-align: center; }
+
+.splash-title { color: white; font-size: 3em; margin-top: 100px; text-shadow: 0 2px 10px #000;
+	-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		animation-delay: 1s;
+}
+
+.btn-splash { box-sizing: border-box; background-color: transparent; border: 2px solid #e74c3c; border-radius: 0.6em; color: #e74c3c; cursor: pointer; font-size: 1rem; font-weight: 400; line-height: 1; margin: 20px; padding: 1em 2em; text-decoration: none; text-align: center; text-transform: uppercase; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px;
+	-webkit-align-self: center;
+		-ms-flex-item-align: center;
+			align-self: center; 
+	-webkit-appearance: none;
+		-moz-appearance: none;
+			appearance: none;
+}
+
+.btn-splash:hover, .btn-splash:focus { color: #000; outline: 0; }
+
+.sixth { border-radius: 3em; border-color: #fff; color: #fff; background-image: -webkit-linear-gradient(top, transparent 50%, #aaa 50%); background-image: linear-gradient(to bottom, transparent 50%, #aaa 50%); background-position: 0% 0%; background-size: 210%; position: absolute; bottom: 55px; left: 50%; margin-left: -55px;
+	-webkit-transition: background 150ms ease-in-out, color 150ms ease-in-out;
+		transition: background 150ms ease-in-out, color 150ms ease-in-out;
+}
+
+.sixth:hover { color: #fff; background-position: 0 100%; }
+
+@media all and (max-width: 690px) {
+	.splash-title { font-size: 2em; }
+}
+
+@media all and (max-width: 480px) {
+	.splash-title { font-size: 1.5em; }
+}

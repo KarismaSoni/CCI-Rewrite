@@ -43,8 +43,14 @@
         $('html, body').animate({scrollTop: 0}, duration);
         return false;
     });
+
+    // Splash Page Script
+    if($('.splash').is(':visible')) {
+        $('.navbar, .cci-wrapper, #myCarousel').hide();
+    }
+    $('.btn-splash').click(function() {
+        $('.splash').hide();
+        $('.navbar, .cci-wrapper, #myCarousel').fadeToggle(1000);
+    });
     
 })();
-
-
- 
