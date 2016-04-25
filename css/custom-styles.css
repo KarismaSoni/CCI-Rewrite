@@ -73,7 +73,7 @@ header.carousel .fill { width: 100%; height: 100%; background-size: cover; }
 
 /*=====  Light Gallery slider  ======*/
 #light-gallery img { border: 1px solid #ddd; height: 250px; width: 280px; margin-bottom: 10px; }
-#light-gallery .slider-images span { right: 0; left: 15px; bottom: 10px; background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; padding: 25px 15px; text-align: center; width: 280px; margin: 0 auto; }
+#light-gallery .slider-images span { right: 0; left: 0; bottom: 10px; background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; padding: 25px 15px; text-align: center; width: 280px; margin: 0 auto; }
 @media(max-width: 991px) { 
   #light-gallery .slider-images span { right: 0; left: 0; }
 }

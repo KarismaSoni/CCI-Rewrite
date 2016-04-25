@@ -69,7 +69,7 @@
 		'enable':true,
 	},
 	{
-		'shape':'circle',
+	'shape':'circle',
 		'hover': '<b> COLOR COMMUNICATIONS, INC. NORTH AMERICA | CHICAGO, IL </b></u><br><span style="color:black; background-color:#FFA366;"<b></b>North America Headquarters<br>Phone:(800) 458-5743 </span>',
 		'pos_X':127,
 		'pos_Y':97,
@@ -80,7 +80,7 @@
 		'overcolor':'#FFC299',
 		'downcolor':'#FFC299',
 		'url':'http://www.ccicolor.com',
-		'target':'none',
+		'target':'_blank',
 		'enable':true,
 	},
 	{
