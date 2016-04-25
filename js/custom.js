@@ -7,6 +7,8 @@
     
     /* Script to active lightGallery slider on the following pages
     * color-cards.html
+    * specialitycolor-stains-finishes.html
+    * the-art-of-color.html
     */
     $('#light-gallery').lightGallery();
 
@@ -21,6 +23,7 @@
 
     /* Script to active pgwSlider on the following pages 
     * automotive-oem-refinish.html
+    * color-solutions.html
     */
     $('.pgwSlideshow').pgwSlideshow({
         autoSlide: true,
