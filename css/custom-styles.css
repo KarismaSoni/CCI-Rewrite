@@ -100,6 +100,10 @@ footer { margin: 50px 0 0 0; background: #eee; }
   .cci-footer .privacy-policy { width: auto; margin-left: 30px; }
 }
 
+@media(max-width: 480px) { 
+  .cci-footer .col-xs-6 { width: 100%; text-align: center; }
+}
+
 /*==== Back to top arrow ====*/
 .back-to-top { position: fixed; bottom: 2em; right: 2px; color: #000; background-color:#ccc; padding: 5px; }
 .back-to-top:hover { text-decoration: none; }
