@@ -58,3 +58,13 @@
     
 })();
 
+//contact
+
+function submitValidation(event) {
+  $("input").each(function() {
+    if ( !$(this).val() ) {
+      $(this).addClass("failedValidation");
+    }
+  event.preventDefault();
+  });
+};
