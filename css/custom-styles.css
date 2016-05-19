@@ -338,12 +338,23 @@ footer { margin: 50px 0 0 0; background: #eee; }
     width: 100%;
 }
 
-
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
 .warehousing-services-para {  margin:15px;}
-
 /*=====  Media Queries  ======*/
 @media screen and ( max-width: 768px ) {
-  
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner { height: auto; }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 169px;
+    
+    }
   .mapimg {
     margin-top: 15px;
   }
