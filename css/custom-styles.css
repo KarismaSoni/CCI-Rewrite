@@ -346,7 +346,7 @@ img {
 .warehousing-services-para {  margin:15px;}
 /*=====  Media Queries  ======*/
 @media screen and ( max-width: 768px ) {
-
+header.carousel { height: auto; }
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner { height: auto; }
