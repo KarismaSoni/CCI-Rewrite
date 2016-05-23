@@ -349,20 +349,6 @@ img {
 .warehousing-services-para {  margin:15px;}
 /*=====  Media Queries  ======*/
 @media screen and ( max-width: 768px ) {
-<<<<<<< HEAD
-header.carousel { height: auto; }
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner { height: auto; }
-  .carousel-indicators {
-    position: absolute;
-    bottom: 169px;
-    
-    }
-=======
-
-
->>>>>>> origin/master
   .mapimg {
     margin-top: 15px;
   }
