@@ -60,7 +60,6 @@ nav.navbar { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: no
 }
 @media all and ( max-width: 768px ) {
   .carousel-caption { right: 25%; font-size: 12px; }
-  .carousel-inner img { height: 230px !important; }
 }
 
 /*=====  pgwSlideshow slider  ======*/
