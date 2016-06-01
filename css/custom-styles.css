@@ -54,11 +54,13 @@ nav.navbar { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: no
 
 
 /*=====  Bootstrap Slider  ======*/
-.carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: 0; right: 75%; bottom: 100px; text-align: left; padding: 15px; }
+.carousel-inner .item img { height: 400px; width: 100%; }
+.carousel-caption { background-color: rgba(0, 0, 0, 0.5); color: #fff; position: absolute; left: 0; right: 75%; bottom: 100px; text-align: left; padding: 10px; font-size: 14px; }
 @media all and ( max-width: 991px ) {
   .carousel-caption { right: 50%; padding: 10px; bottom: 50px; }
 }
 @media all and ( max-width: 768px ) {
+  .carousel-inner .item img { height: 200px; }
   .carousel-caption { right: 25%; font-size: 12px; }
 }
 
@@ -340,11 +342,6 @@ footer { margin: 50px 0 0 0; background: #eee; }
     width: 100%;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; 
-}
 .warehousing-services-para {  margin:15px;}
 /*=====  Media Queries  ======*/
 @media screen and ( max-width: 768px ) {
