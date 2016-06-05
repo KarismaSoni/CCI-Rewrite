@@ -224,34 +224,41 @@
                 			<h1><strong>CONTACT US</strong></h1>
                             <h3>Send us a Message</h3>
                             <form name="sentMessage" id="contactForm" novalidate>
-                                <div class="control-group form-group">
+                                <div class="control-group form-group col-md-6">
                                     <div class="controls">
-                                        <label>Full Name:</label>
+                                        <label>Full Name <span class="required-astrik">*</span></label><br>
                                         <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                                         <p class="help-block"></p>
                                     </div>
                                 </div>
-                                <div class="control-group form-group">
+                                <div class="control-group form-group col-md-6">
                                     <div class="controls">
-                                        <label>Phone Number:</label>
-                                        <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    </div>
-                                </div>
-                                <div class="control-group form-group">
-                                    <div class="controls">
-                                        <label>Email Address:</label>
+                                        <label>Contact Email <span class="required-astrik">*</span></label>
                                         <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                                     </div>
                                 </div>
-                                <div class="control-group form-group">
+                                <div class="control-group form-group col-md-6">
                                     <div class="controls">
-                                        <label>Message:</label>
+                                        <label>Company <span class="required-astrik">*</span></label><br>
+                                        <input type="text" class="form-control" id="company" required data-validation-required-message="Please enter your company name.">
+                                    </div>
+                                </div>
+                                <div class="control-group form-group col-md-6">
+                                    <div class="controls">
+                                        <label>Phone Number <span class="required-astrik">*</span></label><br>
+                                        <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    </div>
+                                </div>
+                                <div class="control-group form-group col-md-12">
+                                    <div class="controls">
+                                        <label>Message <span class="required-astrik">*</span></label>
                                         <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                                     </div>
                                 </div>
-                                <div id="success"></div>
+                                <div class="clear"></div>
+                                <div class="col-md-12" id="success"></div>
                                 <!-- For success/fail messages -->
-                                <button type="submit" class="btn btn-primary">Send Message</button>
+                                <button type="submit" class="btn btn-primary btn-black btn-lg">Send Message</button>
                             </form>
                         </div>
                 		<div class="col-md-6 pull-right cci-m-10">
