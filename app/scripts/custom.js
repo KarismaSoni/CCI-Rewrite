@@ -114,7 +114,58 @@
         },
         filter: function() {
             return $(this).is(':visible');
+        }
+    });
+
+    // Contact Form on Fundamental Color Tools Page
+    $('#contactFormTools input,#contactFormTools textarea').jqBootstrapValidation({
+        preventSubmit: true,
+        submitSuccess: function($form, event) {
+            event.preventDefault(); // prevent default submit behaviour
+            // get values from FORM
+            var color = $('input[name="color"]').val();
+            var age = $('input[name="age"]').val();
+            var industry = $('input[name="industry"]').val();
+            var message = $('textarea#message').val();
+            $.ajax({
+                url: './bin/fundamental_contact.php',
+                type: 'POST',
+                data: {
+                    color: color,
+                    age: age,
+                    industry: industry,
+                    message: message
+                },
+                cache: false,
+                success: function() {
+                    // Success message
+                    $('#success').html('<div class=\'alert alert-success\'>');
+                    $('#success > .alert-success').html('<button type=\'button\' class=\'close\' data-dismiss=\'alert\' aria-hidden=\'true\'>&times;')
+                        .append('</button>');
+                    $('#success > .alert-success')
+                        .append('<strong>Your message has been sent. Thank You for your feedback. </strong>');
+                    $('#success > .alert-success')
+                        .append('</div>');
+
+                    //clear all fields
+                    $('#contactFormTools').trigger('reset');
+                },
+                error: function() {
+                    // Fail message
+                    $('#success').html('<div class=\'alert alert-danger\'>');
+                    $('#success > .alert-danger').html('<button type=\'button\' class=\'close\' data-dismiss=\'alert\' aria-hidden=\'true\'>&times;')
+                        .append('</button>');
+                    // $('#success > .alert-danger').append('<strong>Sorry it seems that my mail server is not responding...</strong>');
+                    $('#success > .alert-danger').append('<strong>Sorry it seems that my mail server is not responding...</strong> Could you please email me directly to <a href=\'mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com;>me@example.com</a> ? Sorry for the inconvenience!');
+                    $('#success > .alert-danger').append('</div>');
+                    //clear all fields
+                    $('#contactFormTools').trigger('reset');
+                },
+            })
         },
+        filter: function() {
+            return $(this).is(':visible');
+        }
     });
 
     $('a[data-toggle="tab"]').click(function(e) {
@@ -123,7 +174,7 @@
     });
 
     // When clicking on Full hide fail/success boxes
-    $('#name').focus(function() {
+    $('#name,input[name="color"]').focus(function() {
         $('#success').html('');
     });
 

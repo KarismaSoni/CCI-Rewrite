@@ -360,71 +360,103 @@
 
             <div class="clear"></div>
             
-            <div class="row col-md-12">
+            <div class="col-md-6 cci-center-block">
                 <h2 class="text-center text-underline">
                     <u><em>How do You Choose Color?</em></u>
-                </h2>
-                <br>
-                <h4 class="text-center cci-fundamentalcolor"> Help us improve the ways people can sample and use color with your input below</h4>
-                <br>
-            </div>
-
-            <div class="col-md-6 cci-center-block">
+                </h2><br>
+                <h4 class="text-center cci-fundamentalcolor"> Help us improve the ways people can sample and use color with your input below</h4><br>
                 <form name="sentMessage" id="contactFormTools" novalidate>
-                    <label>What is your favorite way to choose colors? </label>
-                    <div class="radio">
-                        <label class="radio">
-                            <input type="radio" name="color" value="internet search" required data-validation-required-message="Please enter your name."> Internet Search
-                        </label>
+                    <div class="control-group form-group col-md-12">
+                        <label>What is your favorite way to choose colors? <span class="required-astrik">*</span></label>
+                        <div class="controls">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="color" value="Internet Search" required data-validation-required-message="Please select favourite way to choose colors."> Internet Search
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="color" value="Paint Samples found in Stores"> Paint Samples found in Stores
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="color" value="Printed Color Samples"> Printed Color Samples 
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="color" value="Other"> Other 
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="radio">
-                        <label><input type="radio" name="color" value="paint samples"> Paint Samples Found In Stores </label>
+
+                    <div class="control-group form-group col-md-12">
+                        <p><strong>If Other please specify</strong></p>
+                        <textarea rows="5" cols="50" id="message" maxlength="999"></textarea>
                     </div>
-                    <div class="radio">
-                        <label><input type="radio" name="color" value="printed color"> Printed Color Samples </label>
+
+                    <div class="control-group form-group col-md-12">
+                        <label>What is your age? <span class="required-astrik">*</span></label>
+                        <div class="controls">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="age" value="Less than 13" required data-validation-required-message="Please select your age."> Less than 13
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="age" value="13-18"> 13-18
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="age" value="19-25"> 19-25
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="age" value="26-35"> 26-35 
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="age" value="36-50"> 36-50 
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="age" value="Over 50"> Over 50 
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="age" value="Prefer not to say"> Prefer not to say 
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="radio">
-                        <label><input type="radio" name="color" value="other"> Other </label>
-                    </div>    
-                    <div class="form-group">
-                       <label for="comment">If Other please specify:</label>
-                       <textarea class="form-control" rows="2" cols="3" id="comment"></textarea>
-                    </div>
-                    <label>What is your age?</label>
-                    <div class="radio">
-                        <label><input type="radio" name="age" value="less than 13"> Less than 13 </label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="age" value="13 to 18"> 13-18 </label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="age" value="19 to 25"> 19-25 </label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="age" value="26 to 35"> 26-35 </label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="age" value="36 to 50"> 36-50 </label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="age" value="over 50"> Over 50 </label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="age" value="Prefer not to say"> Prefer not to say </label>
-                    </div>
-                    <div class="form-group"> 
-                        <label>Do you work in the color industry or do you represent the consumer market?</label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="color industry" value="Color/Paint Industry "> Color/Paint Industry </label>
-                    </div>
-                    <div class="radio">
-                        <label><input type="radio" name="consumer market" value="Consumer/Color Lover"> Consumer/Color Lover </label>
-                    </div>
+
                     <br>
-                    <div>
-                        <input class="btn btn-primary btn-lg" type="submit" name="Submit">
+
+                    <div class="control-group form-group col-md-12">
+                        <label>Do you work in the color Industry or do you represent the consumer market? <span class="required-astrik">*</span></label>
+                        <div class="controls">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="industry" value="Color/Paint Industry" required data-validation-required-message="Please select Industry."> Color/Paint Industry
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="industry" value="Consumer/Color Lover"> Consumer/Color Lover
+                                </label>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-md-12" id="success"></div>
+                    <button type="submit" class="btn btn-primary btn-black btn-lg">Submit</button>
                 </form>
             </div> 
         </div>
