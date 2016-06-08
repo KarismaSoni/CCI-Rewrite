@@ -6,3 +6,4 @@ dist
 robots.txt
 bower_components
 .gitattributes
+npm-debug.log
