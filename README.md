@@ -12,12 +12,9 @@
 - Clone the repo: git clone https://github.com/KarismaSoni/CCI-Rewrite.git
 - Install dependencies: `npm install --global gulp-cli`
 - Run `npm install` to install dependencies from `package.json`
-- Run `gulp serve` to preview and watch for changes
-- Run `gulp` to build your webapp for production
-- Run `gulp serve:dist` to preview the production build
+- Run `gulp serve` to preview and watch for any local changes made on app folder
+- Run `gulp` to build your app for production - this will create `dist` folder with all html, css, js, images compressed and gzipped
+- Run `gulp serve:dist` to preview the production build on localhost
 
 ## TODOs 
-- [ ] Search Engine  
-- [ ] Splash page - only show once  
-- [ ] Updated the Splash Page with new Image  
-- [ ] Contact Form on Fundament Color Tools page
+- [ ] Search Engine - google search or custom
