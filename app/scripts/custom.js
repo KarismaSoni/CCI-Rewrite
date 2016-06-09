@@ -48,13 +48,35 @@
     });
 
     // Splash Page Script
+    // EXPIRES: Setting this to null means the Cookie is deleted after the browser is closed
+    // PATH: Setting the path to '/' means the cookie will be created on any page of the site
     if($('.splash').is(':visible')) {
         $('.navbar, .cci-wrapper, #myCarousel').hide();
     }
     $('.btn-splash').click(function() {
         $('.splash').hide();
+        $.cookie('cookie', 'monster', { expires: null, path: '/' }); // Set Cookie( 'name', 'value' { expires: null, path '/'})
         $('.navbar, .cci-wrapper, #myCarousel').fadeToggle(1000);
     });
+    if (typeof $.cookie('cookie') === 'undefined'){ // Checks to see if the cookie exists
+        $('.splash').show() // IF No Cookie
+        $('.navbar, .cci-wrapper, #myCarousel').hide();
+    } else {
+        $('.splash').hide() // IF Cookie
+        $('.navbar, .cci-wrapper, #myCarousel').show();
+    }
+
+    // $('.cta').css('display', 'block'); // Fades in the CTA div after the page has loaded
+    //   $('.close-cta').click(function(){ // Class for the close button
+    //     $(this).parent().fadeOut(500); // Hide the CTA div
+    //     $.cookie('cookie', 'monster', { expires: null, path: '/' }); // Set Cookie( 'name', 'value' { expires: null, path '/'})
+    //   });
+
+    //   if (typeof $.cookie('cookie') === 'undefined'){ // Checks to see if the cookie exists
+    //     $('.cta').removeClass('cookie'); // IF No Cookie
+    //   } else {
+    //     $('.cta').addClass('cookie') // IF Cookie
+    //   }
 
     // Contact Form
     $('#contactForm input,#contactForm textarea').jqBootstrapValidation({
