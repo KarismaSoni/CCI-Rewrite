@@ -400,16 +400,14 @@
                         <!--<input name="cci" type="text" class="form-control" placeholder="Search CCIColor.com"/>
                         <span class="fa fa-search"></span>-->
 
-                        <form accept-charset="UTF-8" action="http://www.jrank.org/api/search/v2" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓" /></div>
-                            <fieldset style="border: 1px solid rgb(175, 175, 175); display: inline;">
-                             <legend><a href="http://www.jrank.org/" style="font-size: 10pt; font-family: Arial, sans-serif;">Site Search</a></legend>
-                             <a href="http://www.jrank.org/"><img alt="Site Search" src="http://www.jrank.org/images/jrank_88_31-fs8.png" style="border: none; vertical-align: middle;" title="Site Search" /></a>
-                             <input id="key" name="key" type="hidden" value="ef33efcd8de733d986572733df0324d9457cb93e" />
-                             <input name="ie_utf8_fix" type="hidden" value="☠" />
-                             <input id="q" name="q" style="display: inline; vertical-align: middle;" type="text" value="" />
-                             <input name="commit" style="display: inline; vertical-align: middle;" type="submit" value="Search" />
-                            </fieldset>
+                        <form action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+                            <p>Search JavaScript Kit:<br />
+                            <input name="q" type="hidden" />
+                            <input name="qfront" type="text" style="width: 180px" /> <input type="submit" value="Search" /></p>
                         </form>
+
+                        <p style="font: normal 11px Arial">This free script provided by<br />
+                        <a href="http://www.javascriptkit.com">JavaScript Kit</a></p>
                    
                 </div>
                 <br><br>
