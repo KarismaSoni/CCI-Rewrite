@@ -4,7 +4,7 @@
     $('.carousel').carousel({
         interval: 4000 //changes the speed
     });
-    
+
     /* Script to active lightGallery slider on the following pages
     * color-cards.html
     * specialitycolor-stains-finishes.html
@@ -21,7 +21,7 @@
         $(this).find('span').slideUp('100')
     });
 
-    /* Script to active pgwSlider on the following pages 
+    /* Script to active pgwSlider on the following pages
     * automotive-oem-refinish.html
     * color-solutions.html
     */
@@ -40,43 +40,12 @@
             $('.back-to-top').fadeOut(duration);
         }
     });
-    
+
     $('.back-to-top').click(function(e) {
         e.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
         return false;
     });
-
-    // Splash Page Script
-    // EXPIRES: Setting this to null means the Cookie is deleted after the browser is closed
-    // PATH: Setting the path to '/' means the cookie will be created on any page of the site
-    if($('.splash').is(':visible')) {
-        $('.navbar, .cci-wrapper, #myCarousel').hide();
-    }
-    $('.btn-splash').click(function() {
-        $('.splash').hide();
-        $.cookie('cookie', 'monster', { expires: null, path: '/' }); // Set Cookie( 'name', 'value' { expires: null, path '/'})
-        $('.navbar, .cci-wrapper, #myCarousel').fadeToggle(1000);
-    });
-    if (typeof $.cookie('cookie') === 'undefined'){ // Checks to see if the cookie exists
-        $('.splash').show() // IF No Cookie
-        $('.navbar, .cci-wrapper, #myCarousel').hide();
-    } else {
-        $('.splash').hide() // IF Cookie
-        $('.navbar, .cci-wrapper, #myCarousel').show();
-    }
-
-    // $('.cta').css('display', 'block'); // Fades in the CTA div after the page has loaded
-    //   $('.close-cta').click(function(){ // Class for the close button
-    //     $(this).parent().fadeOut(500); // Hide the CTA div
-    //     $.cookie('cookie', 'monster', { expires: null, path: '/' }); // Set Cookie( 'name', 'value' { expires: null, path '/'})
-    //   });
-
-    //   if (typeof $.cookie('cookie') === 'undefined'){ // Checks to see if the cookie exists
-    //     $('.cta').removeClass('cookie'); // IF No Cookie
-    //   } else {
-    //     $('.cta').addClass('cookie') // IF Cookie
-    //   }
 
     // Contact Form
     $('#contactForm input,#contactForm textarea').jqBootstrapValidation({
