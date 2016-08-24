@@ -53,6 +53,10 @@ form .required-astrik { color: #a94442; margin-left: -1px; }
 }
 /*=====  End of Global Styles  ======*/
 
+/*=====  Google Search  ======*/
+table.gsc-search-box td.gsc-input { padding-right: 5px !important; }
+table.gsc-search-box td.gsc-input input { padding: 4px !important; width: 100% !important; font-size: 14px !important; }
+
 /*=====  Navigation  ======*/
 nav.navbar { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: normal; }
 .dropdown-menu { border-radius: 0; }
@@ -100,7 +104,7 @@ nav.navbar { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: no
 
 /*=====  Footer  ======*/
 footer { margin: 50px 0 0 0; background: #eee; font-size: 14px; }
-.cci-footer { margin: 50px 0; padding: 20px 0; border-bottom: 1px solid #aaa; margin-bottom: 30px; /* border-top: 1px solid #aaa; */ margin-top: 20px; }
+.cci-footer { margin: 50px 0; padding: 20px 0; border-bottom: 1px solid #aaa; margin-bottom: 30px; border-top: 1px solid #aaa; margin-bottom: 20px; }
 .cci-footer-image { width: 135px; }
 .cci-footer .privacy-policy { width: 100px; text-align: center; }
 .cci-footer .nav-links { list-style-type: none; display: inline-block; padding-left: 20px; }
